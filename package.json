@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/PabloXV/react-experiments#readme",
   "dependencies": {
+    "material-ui": "^0.20.0",
+    "muicss": "^0.9.35",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
