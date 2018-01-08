@@ -52,7 +52,7 @@ class KnackNavBar extends Component {
 
         </AppBar>
         <Drawer
-          docked={false}
+          docked={true}
           onRequestChange={(drawerOpen) => this.setState({drawerOpen})}
           open={this.state.drawerOpen}
         >

@@ -95,6 +95,7 @@ const styles = {
   },
   paperDeckSpace: {
     height: cardData.length * 140,
+    float: "right",
   }
 };
 
@@ -121,9 +122,9 @@ class DeckCreationSpace extends Component {
               <GridTile
                 key={i}
                 title={card.title}
-                style={styles.gridTile}
                 subtitle={<span>by <b>{card.author}</b></span>}
                 actionIcon={<IconButton><StarBorder color="white" /></IconButton>}
+                style={styles.gridTile}
               >
                 <Paper style={styles.cards}><div style={styles.cardContent}>{card.content}</div></Paper>
               </GridTile>
